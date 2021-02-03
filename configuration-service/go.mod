@@ -24,9 +24,9 @@ require (
 	github.com/nwaples/rardecode v1.0.0 // indirect
 	github.com/otiai10/copy v1.0.2
 	github.com/pierrec/lz4 v2.3.0+incompatible // indirect
-	github.com/stretchr/testify v1.5.1
+	github.com/stretchr/testify v1.6.1
 	github.com/xi2/xz v0.0.0-20171230120015-48954b6210f8 // indirect
-	go.mongodb.org/mongo-driver v1.3.1
+	go.mongodb.org/mongo-driver v1.4.6
 	golang.org/x/crypto v0.0.0-20200220183623-bac4c82f6975 // indirect
 	golang.org/x/net v0.0.0-20200202094626-16171245cfb2
 	golang.org/x/oauth2 v0.0.0-20200107190931-bf48bf16ab8d // indirect
@@ -39,6 +39,4 @@ require (
 )
 
 // Transitive requirement from Helm: See https://github.com/helm/helm/blob/v3.1.2/go.mod
-replace (
-	github.com/Azure/go-autorest => github.com/Azure/go-autorest v13.3.2+incompatible
-)
+replace github.com/Azure/go-autorest => github.com/Azure/go-autorest v13.3.2+incompatible
