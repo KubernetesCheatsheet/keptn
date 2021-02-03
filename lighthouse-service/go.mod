@@ -11,11 +11,10 @@ require (
 	github.com/gogo/protobuf v1.3.1 // indirect
 	github.com/google/gofuzz v1.1.0 // indirect
 	github.com/googleapis/gnostic v0.1.0 // indirect
-	github.com/gorilla/websocket v1.4.1 // indirect
 	github.com/json-iterator/go v1.1.9 // indirect
 	github.com/kelseyhightower/envconfig v1.4.0
 	github.com/keptn/go-utils v0.8.0-alpha.0.20210118153845-86a445dfcb86
-	github.com/mitchellh/mapstructure v1.3.3
+	github.com/mitchellh/mapstructure v1.4.1
 	github.com/nats-io/nats-server/v2 v2.1.6
 	github.com/onsi/ginkgo v1.11.0 // indirect
 	github.com/stretchr/testify v1.5.1
