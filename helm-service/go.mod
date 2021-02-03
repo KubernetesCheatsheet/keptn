@@ -6,18 +6,18 @@ require (
 	github.com/cloudevents/sdk-go/v2 v2.2.0
 	github.com/ghodss/yaml v1.0.0
 	github.com/gogo/protobuf v1.3.1
-	github.com/golang/mock v1.2.0
+	github.com/golang/mock v1.4.1
 	github.com/kelseyhightower/envconfig v1.4.0
 	github.com/keptn/go-utils v0.8.0-alpha.0.20210118153845-86a445dfcb86
 	github.com/keptn/kubernetes-utils v0.8.0-alpha
 	github.com/kinbiko/jsonassert v1.0.1
-	github.com/stretchr/testify v1.5.1
+	github.com/stretchr/testify v1.6.1
 	gotest.tools v2.2.0+incompatible
 	helm.sh/helm/v3 v3.1.2
-	k8s.io/api v0.17.2
-	k8s.io/apimachinery v0.17.2
-	k8s.io/cli-runtime v0.17.2
-	k8s.io/client-go v0.17.2
+	k8s.io/api v0.20.2
+	k8s.io/apimachinery v0.20.2
+	k8s.io/cli-runtime v0.20.2
+	k8s.io/client-go v0.20.2
 	k8s.io/kubectl v0.17.2
 	sigs.k8s.io/yaml v1.2.0
 )
